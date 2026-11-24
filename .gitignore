@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw and large data: deposit on Zenodo and link the DOI in data/README.md
+data/raw/
+*.h5
+*.hdf5
+*.nxs
+*.edf
+*.tif
+*.tiff
+*.npy
+*.npz
+*.gsd
+*.zip
+*.tar.gz

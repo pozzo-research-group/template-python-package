@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "package-name"
+abstract: "One sentence on what the package does."
+authors:
+  # The people who wrote the software. Surname in family-names only.
+  - family-names: "Surname"
+    given-names: "First M."
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "Pozzo"
+    given-names: "Lilo D."
+    orcid: "https://orcid.org/0000-0001-7104-9061"
+license: MIT
+repository-code: "https://github.com/pozzo-research-group/package-name"
+version: 0.1.0
+date-released: 2026-01-01
+# If the package accompanies a paper, add a preferred-citation block
+# (see template-paper/CITATION.cff for the format).
