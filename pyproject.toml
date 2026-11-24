@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "package-name"
+version = "0.1.0"
+description = "One sentence on what the package does."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+authors = [
+  { name = "First Surname" },
+  { name = "Lilo D. Pozzo" },
+]
+dependencies = [
+  "numpy",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.urls]
+Repository = "https://github.com/pozzo-research-group/package-name"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/package_name"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
